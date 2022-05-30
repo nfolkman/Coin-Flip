@@ -10,6 +10,14 @@ http.createServer((req, res) => {
     res.write(data)
     res.end()
   })
+  fs.readFile('main.js', (err, data) => {
+    res.writeHead(200, {'Content-Type': 'text/javascript'})
+    res.write(data)
+    res.end()
+  })
 }).listen(8000)
+
+
+
 
 

@@ -6,7 +6,7 @@
 <br>
 
 <h3>Description</h3>
-<p><strong>An app that simulates a coinflip, with portions of the logic running server-side.</strong></p>
+<p><strong>An app that simulates a coinflip, with portions of the logic also running server-side.</strong></p>
 
 <h3>Tools Used</h3>
 
